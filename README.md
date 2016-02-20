@@ -1,5 +1,5 @@
 # sitting-in-your-seat-plane-simulation
-Simulation of 538 ("Will Someone Be Sitting In Your Seat On The Plane?")[http://fivethirtyeight.com/features/will-someone-be-sitting-in-your-seat-on-the-plane/] riddle
+Simulation of 538 ["Will Someone Be Sitting In Your Seat On The Plane?"](http://fivethirtyeight.com/features/will-someone-be-sitting-in-your-seat-on-the-plane/) riddle
 
 The Riddle:
 
