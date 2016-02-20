@@ -10,7 +10,7 @@ sits in his or her own assigned seat if it’s empty, but sits in a random open 
 if the assigned seat is occupied. What is the probability that you, 
 the hundredth passenger to board, finds your seat unoccupied?
 
-Based on 10,000 runs, it's around 3%.
+Based on lots of runs, it's around 3%.
 
 If there are _n_ seats, it looks like the liklihood follows a power law falloff, base on running
 the numbers from 1 to 100 seats.
