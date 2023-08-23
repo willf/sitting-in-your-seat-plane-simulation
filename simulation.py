@@ -1,7 +1,6 @@
 import collections
 import random
 
-
 """
 There’s an airplane with 100 seats, and there are 100 ticketed passengers each
 with an assigned seat. They line up to board in some random order. However, the
@@ -35,7 +34,7 @@ def make_passengers(n=100):
 
 
 def choose_random_seat(seats):
-    (seat, ) = random.sample(seats, 1)
+    (seat, ) = random.sample(list(seats), 1)
     new_seats = seats - set([seat])
     return (seat, new_seats)
 
@@ -57,7 +56,7 @@ def simulate(passengers):
 
 
 def main():
-    sims = 10000
+    sims = 100000
     size = 100
     c = collections.Counter()
     for j in range(0, sims):
